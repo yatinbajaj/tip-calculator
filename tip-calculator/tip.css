@@ -1,0 +1,155 @@
+*{
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:hsl(185, 41%, 84%)
+}
+
+.title-image{
+    margin-bottom: 1rem;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 6rem 0 0 0;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 56rem;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: auto;
+}
+
+.bill-input-label,
+.people-input-label{
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+    color: hsl(184, 14%, 56%);
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bill-input{
+    background-image: url('./images/icon-dollar.svg');
+    background-repeat: no-repeat;
+    background-position: left 1rem top .25rem;
+    background-size: 1.2rem;
+}
+
+.people-input{
+    background-image: url('./images/icon-person.svg');
+    background-repeat: no-repeat;
+    background-position: left 1rem top .25rem;
+    background-size: 1.2rem;
+}
+
+.percentage-sec-buttons{
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1rem;
+    justify-content: space-between;
+    justify-items: stretch;
+    margin: 0 1rem;
+}
+
+input{
+    text-align: right;
+    padding: .25rem .5rem;
+    width: 100%;
+    max-width: 95%;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 600;   
+    border-radius: .5rem;
+    outline: none;
+    border: 2px solid hsl(185, 41%, 97%);
+    background-color:  hsl(189, 41%, 97%);
+    color: black;
+}
+
+.percentage-btn{
+    padding: .5rem 0;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: .5rem;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 25rem;
+    background: hsl(183, 100%, 15%);
+    padding: 2rem 1rem;
+    border-radius: 20px;
+}
+
+.display-sec{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+}
+
+.display-sec-label{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.display-sec-person{
+  color: hsl(184, 14%, 56%);
+}
+
+.display-sec span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: hsl(184, 14%, 56%);
+}
+
+.reset-button{
+    background: hsl(186, 14%, 43%);
+    color: hsl(183, 100%, 15%);
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+    margin-top: 6em;
+    padding:1rem;
+    border-radius: 10px;
+}
+.icon-dollar{
+    width: 15px;
+}
+
+.error{
+    color: red;
+    
+}
+
+.input-error{
+    border: 2px solid red;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
